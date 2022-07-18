@@ -1,0 +1,5 @@
+/result
+/dist/*
+!/dist/app.js
+!/dist/index.html
+!/dist/page.html

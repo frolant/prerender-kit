@@ -1,0 +1,21 @@
+{
+    "name": "@prerender-kit/launcher",
+    "version": "1.0.1",
+    "description": "Launcher for add single page application pre-rendering process into CI application release lifecycle",
+    "main": "./lib/index.js",
+    "author": "Anton Frolov",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git@gitlab.akb-it.ru:rshb/portal-ui-components.git"
+    },
+    "browserslist": [
+        "last 2 versions"
+    ],
+    "scripts": {
+        "build": "node ../../tools/scripts/update-library-from-source launcher"
+    },
+    "dependencies": {
+        "@prerender-kit/tools": "1.0.0"
+    }
+}

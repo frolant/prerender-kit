@@ -1,0 +1,26 @@
+{
+    "name": "prerender-kit",
+    "version": "1.0.0",
+    "description": "Kit for add single page application pre-rendering process into Webpack build lifecycle or CI application release lifecycle",
+    "author": "Anton Frolov",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:frolant/prerender-kit.git"
+    },
+    "browserslist": [
+        "last 2 versions"
+    ],
+    "scripts": {
+        "init": "npm install --silent --no-audit --no-fund --no-save && lerna clean --yes && lerna bootstrap --hoist -- --no-package-lock",
+        "build": "lerna run build",
+        "publish:npm": "lerna run publish --parallel",
+        "publish:git": "lerna publish from-git",
+        "publish:pkg": "lerna publish from-package --access=public",
+        "generate:package": "node ./tools/scripts/generate-package.js package-name",
+        "lerna": "lerna"
+    },
+    "devDependencies": {
+        "lerna": "4.0.0"
+    }
+}

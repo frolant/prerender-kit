@@ -1,0 +1,13 @@
+{
+    "port": 45678,
+    "publicPath": "/",
+    "source": "./packages/launcher/tests/dist",
+    "destination": "./packages/launcher/tests/result",
+    "include": [
+        "/"
+    ],
+    "puppeteerArgs": [
+        "--disable-setuid-sandbox",
+        "--no-sandbox"
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "name": "@prerender-kit/webpack-plugin",
+    "version": "1.0.1",
+    "description": "Plugin for add single page application pre-rendering process into Webpack build lifecycle",
+    "main": "./lib/index.js",
+    "author": "Anton Frolov",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git@gitlab.akb-it.ru:rshb/portal-ui-components.git"
+    },
+    "scripts": {
+        "build": "node ../../tools/scripts/update-library-from-source webpack-plugin"
+    },
+    "dependencies": {
+        "@prerender-kit/tools": "1.0.0"
+    }
+}

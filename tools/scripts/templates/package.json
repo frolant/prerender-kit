@@ -1,0 +1,19 @@
+{
+    "name": "@prerender-kit/${packageName}",
+    "version": "1.0.1",
+    "description": "Package ${packageName} - Part of toolkit for add single page application pre-rendering process",
+    "main": "./lib/index.js",
+    "types": "./lib/index.d.ts",
+    "author": "Anton Frolov",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:frolant/prerender-kit.git"
+    },
+    "browserslist": [
+        "last 2 versions"
+    ],
+    "scripts": {
+        "build": "node ../../run build ${packageName}"
+    }
+}

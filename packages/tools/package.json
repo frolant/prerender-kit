@@ -1,0 +1,29 @@
+{
+    "name": "@prerender-kit/tools",
+    "version": "1.0.1",
+    "description": "Common tools for add single page application pre-rendering process into webpack build lifecycle or CI application release lifecycle",
+    "main": "./lib/index.js",
+    "author": "Anton Frolov",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:frolant/prerender-kit.git"
+    },
+    "browserslist": [
+        "last 2 versions"
+    ],
+    "scripts": {
+        "build": "node ../../tools/scripts/update-library-from-source tools"
+    },
+    "dependencies": {
+        "express": "4.17.2",
+        "express-history-api-fallback": "2.2.1",
+        "highland": "2.13.5",
+        "html-minifier": "4.0.0",
+        "http-proxy-middleware": "2.0.1",
+        "memory-cache": "0.2.0",
+        "mkdirp": "1.0.4",
+        "puppeteer": "10.4.0",
+        "serve-static": "1.14.1"
+    }
+}
